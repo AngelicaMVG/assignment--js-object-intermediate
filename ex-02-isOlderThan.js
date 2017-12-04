@@ -15,12 +15,7 @@ let someGirl = {
 /*
  * On the `someGirl` object, write the '.isOlderThan()' method and its logic  below :
 */
-someGirl.isOlderThan = function(integer) {
-  if (integer < this.age) {
-    return true;
-  }
-  return false;
-};
+someGirl.isOlderThan = function() {};
 
 //*~*~*-*~*~*~*~*~ Don't Touch *~*~*~*~*~*~*~*~*~*~*~
 

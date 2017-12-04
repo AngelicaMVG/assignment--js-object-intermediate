@@ -10,14 +10,6 @@
  *
 */
 
-function getKeys(objectInput) {
-  var result = [];
-  for (props in objectInput) {
-    result.push(props);
-  }
-  return result;
-}
-
 //*~*~*-*~*~*~*~*~ Don't Touch *~*~*~*~*~*~*~*~*~*~*~
 var output_1 = getKeys({
   firstName: "John",

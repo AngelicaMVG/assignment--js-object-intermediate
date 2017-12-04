@@ -24,9 +24,7 @@ let dog = {
  * Write the logic '.getDogAgeInHumanYears()' method for `dog` below :
 */
 
-dog.getDogAgeInHumanYears = function() {
-  return this.age * 7;
-};
+dog.getDogAgeInHumanYears = function() {};
 
 //*~*~*-*~*~*~*~*~ Don't Touch *~*~*~*~*~*~*~*~*~*~*~
 

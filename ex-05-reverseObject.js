@@ -12,15 +12,6 @@
  *
 **/
 
-function reverseObject(object) {
-  var reverse = {};
-  for (propertie in object) {
-    value = object[propertie];
-    reverse[value] = propertie;
-  }
-  return reverse;
-}
-
 //*~*~*-*~*~*~*~*~ Don't Touch *~*~*~*~*~*~*~*~*~*~*~
 
 var object1 = {
